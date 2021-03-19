@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from youspital.com/doctors/sign-in/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Nov 2019 17:32:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+    <meta name="csrf-param" content="_frontendCSRF">
+    <meta name="csrf-token" content="9uukfc38AbbDxvZDMgLRB79hlAjx5rM0NMs8LR2vSJiVufMV_chO16L-tHd2bOBi5g3Ce5SAilVM_A4aTNUPrg==">
+    <title>Youspital.com - Backend - Sign In</title>
+    <link href="../../assets/5199d1f8/css/font-awesome.min.css" rel="stylesheet">
+<link href="../lib/stroke-7/style.css" rel="stylesheet">
+<link href="../lib/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
+<link href="../css/app.min.css" rel="stylesheet">
+<link href="../css/themes/blue-sky.min.css" rel="stylesheet">
+<link href="../css/jquery-confirm.min.css" rel="stylesheet">
+<link href="../css/custom.css" rel="stylesheet">    <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon" />
+</head>
+<body class="login-page" data-mainurl="../../index.html">            
+<div class="mai-wrapper mai-login">
+    <div class="main-content container">
+        <div class="splash-container row">
+            <div class="col-sm-6 user-message">
+                <span class="splash-message text-right">
+                    Hello!<br> is good to<br> see you again                </span>
+            </div>
+            <div class="col-sm-6 form-message">
+
+                <span class="splash-description text-center mt-5 mb-5">
+                    Login to your account<br>
+                                    </span>
+                
+                <form id="login-form" action="https://youspital.com/doctors/sign-in/login" method="post">
+<input type="hidden" name="_frontendCSRF" value="9uukfc38AbbDxvZDMgLRB79hlAjx5rM0NMs8LR2vSJiVufMV_chO16L-tHd2bOBi5g3Ce5SAilVM_A4aTNUPrg==">                    
+                    <div class="form-group field-loginform-identity required">
+<div class="input-group"><span class="input-group-addon"><i class="icon s7-user"></i></span><input type="text" id="loginform-identity" class="form-control" name="LoginForm[identity]" placeholder="Username or Email" aria-required="true"><ul class="parsley-errors-list filled"><li class="parsley-required"></li></ul></div>
+</div>
+                    <div class="form-group field-loginform-password required">
+<div class="input-group"><span class="input-group-addon"><i class="icon s7-lock"></i></span><input type="password" id="loginform-password" class="form-control" name="LoginForm[password]" placeholder="Password" aria-required="true"><ul class="parsley-errors-list filled"><li class="parsley-required"></li></ul></div>
+</div>
+                    <div class="form-group login-submit">
+                        <button type="submit" class="btn btn-lg btn-primary btn-block" name="login-button">Login</button>                    </div>
+
+                    <div class="form-group row login-tools">
+                        <div class="col-6 login-remember">
+                            <label class="custom-control custom-checkbox mt-2">
+                                <input name="LoginForm[rememberMe]" type="checkbox" class="custom-control-input" value="1" checked>
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">
+                                    Remember me                                </span>
+                            </label>
+                        </div>
+                        <div class="col-6 pt-2 text-right login-forgot-password">
+                            <a target="_blank" href="../../user/sign-in/request-password-reset.html">
+                                Forgot Password?                            </a>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        
+    <script src="../../assets/314f17dc/jquery.js"></script>
+<script src="../../assets/384cc180/yii.js"></script>
+<script src="../../assets/384cc180/yii.validation.js"></script>
+<script src="../../assets/384cc180/yii.activeForm.js"></script>
+<!--[if lt IE 9]>
+<script src="/assets/7e8b585a/dist/html5shiv.min.js"></script>
+<![endif]-->
+<script src="../lib/tether/js/tether.min.js"></script>
+<script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+<script src="../lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../js/app.min.js"></script>
+<script src="../js/jquery-confirm.min.js"></script>
+<script src="../js/bootstrap-notify.min.js"></script>
+<script src="../js/custom.js"></script>
+<script>jQuery(function ($) {
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-identity","name":"identity","container":".field-loginform-identity","input":"#loginform-identity","error":".parsley-required","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Mobile or email cannot be blank."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".parsley-required","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}}], []);
+});</script></body>
+<!-- Mirrored from youspital.com/doctors/sign-in/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Nov 2019 17:32:09 GMT -->
+</html>

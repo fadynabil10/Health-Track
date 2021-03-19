@@ -1,0 +1,149 @@
+@media (max-width: 522px) {
+  aside .img {
+    display: block;
+    float: none;
+    width: 100%;
+    height: 38px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+  aside .img a{
+    display: inline-block;
+  }
+
+  aside ul {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+@media (min-width: 700px) {
+  aside {
+    position: fixed;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #00d9ab;
+    z-index: 100;
+  }
+  aside .img {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  }
+  aside .img a{
+    display: block;
+  }
+  aside .img a img{
+    width: 100%;
+    height: 100%;
+  }
+  aside ul {
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+  }
+  aside ul li {
+    padding: 12px;
+    text-align: right;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  aside ul li:hover ,
+  aside ul .active {
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+  }
+  aside ul li a {
+    color: rgb(255,255,255,0.9);
+  }
+  aside ul .active a,
+  aside ul li:hover a {
+    color: #00d9ab;
+  }
+  /* End Aside */
+  #content {
+    width: calc( 100% - 300px );
+    float: left;
+    text-align: right;
+  }
+}
+
+
+@media (max-width: 991px) {
+  #home .slide .coption .form-area {
+  	width: 90%;
+  }
+  #services-sections .all .list {
+  	margin-top: 0;
+  }
+  .navbar-collapse {
+    background-color: #00d9ab;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  #services-sections .all .select-search .select-button {
+    margin-top: 20px;
+    text-align: right!important;
+  }
+  #services-sections .all .lab {
+    flex-direction: column;
+  }
+  #services-sections .all .steps .step ul li {
+    width: 45%;
+  }
+  #services-sections .all .steps .step ul li:before {
+    display: none;
+  }
+  #services-sections .all .steps .step ul li span {
+    line-height: 25px;
+  }
+  #services-sections .all .steps .places .place .circle {
+    line-height: 28px;
+    font-size: 12px;
+    width: 35px;
+    height: 28px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+  	width: 100%;
+  }
+  #home .slide {
+  	height: auto;
+  	padding-bottom: 10px;
+  }
+  #home .slide .coption h1 {
+  	margin-bottom: 15px;
+  }
+  .search-buttons .button.button-service,
+  .search-buttons .button.button-area,
+  .search-buttons .button {
+  border-radius: 50px;
+  	width: 100%;
+  	margin-top: 10px;
+  }
+  #home .slide .coption {
+  	padding-top: 10px;
+  }
+  #partners .owl-carousel-partners .item a img {
+  	margin: auto;
+  }
+  #footer .social .logo {
+  	text-align: center!important;
+  }
+  #footer .social ul {
+  	text-align: center;
+  }
+  #footer .link {
+  	margin-right: 30%;
+  }
+  #partners .owl-carousel-partners .item {
+  	margin-left:0;	
+  }
+}
